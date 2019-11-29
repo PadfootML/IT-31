@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"> <!-- мобільні пристрої-->
+	<title>Harry Potter</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+	<!--шрифт -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<!--css -->
+
+</head>
+
+<body id="body">
+
+	<header>
+		<button class="btn1" id="btn1"> Order of the Phoenix </button>
+		<nav class="menu" id="menu">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Characters<i class="fa fa-angle-down"></i></a>
+				<ul class="submenu" text-align="center">
+					<li><a href="">Harry </a></li>
+					<li><a href="">Ron </a></li>
+					<li><a href="">Hermione </a></li>
+				</ul>
+			</li>
+			<li><a href="#">Contacts</a></li>
+		</nav>
+		<button type="button" class="btn" id="btn"> Death Eaters </button>
+
+	</header>
+
+
+	<section class="topbody" id="topbody">
+		<div class="background-image"></div>
+		<h1 id="title">Harry Potter</h1>
+		<h3 id="change">Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels
+			chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all
+			of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's
+			struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard
+			governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).
+		</h3>
+		<a>
+			<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/kToZ7LVkcXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+		</a>
+	</section>
+
+
+	<section class="Death">
+		<div class="background"></div>
+		<section class="trio">
+
+			<h1 id='change3'>The main characters</h1>
+
+			<table>
+				<tr>
+					<td colspan="3" id="secondText">
+						<!--обєднуєм три секції таблиці -->
+						<h3 id='change2'>The Trio, sometimes known as the Golden Trio, was the popular name given to the
+							gang of three best friends and former Gryffindor students at Hogwarts School of Witchcraft
+							and Wizardry, being Harry Potter, Ronald Weasley and Hermione Granger. The trio was allied
+							with the Order of the Phoenix and Albus Dumbledore, and in their adult life and careers, the
+							British Ministry of Magic.</h3>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!--три секції з фотками -->
+						<p><img src="img/hp1.jpg" width="320" height="340"></p>
+					</td>
+					<td>
+						<p><img src="img/hp2.jpg" width="320" height="340"></p>
+					</td>
+					<td>
+						<p><img src="img/hp3.jpg" width="320" height="340"></p>
+					</td>
+
+				</tr>
+
+				<tr>
+					<td>
+						<p><select size="5" multiple name="hero[]">
+								<option disabled>Choose character</option>
+								<option value="Harry Potter">Harry Potter</option>
+								<option selected value="Hermione Granger">Hermione Granger</option>
+								<option value="Ronald Weasley">Ronald Weasley</option>
+								<option value="Sirius Black">Sirius Black</option>
+								<option value="Albus Dumbledore">Albus Dumbledore</option>
+								<option value="Bellatrix Lestrange">Bellatrix Lestrange</option>
+								<option value="Luna Lovegood">Luna Lovegood</option>
+								<option value="Draco Malfoy">Draco Malfoy</option>
+								<option value="Bartemius (Barty) Crouch, Jr.">Bartemius (Barty) Crouch, Jr.</option>
+							</select></p>
+						<p><input class="submit" type="submit" value="Send"></p>
+
+					</td>
+
+
+				</tr>
+
+				<td colspan="3" id="list" text-align="left">
+					<br>
+					<p><input name="potter" type="checkbox" value="a1" ;>Harry</p>
+					<br>
+					<p><input name="weasly" type="checkbox" value="a2">Ron</p>
+					<br>
+					<p><input name="grenger" type="checkbox" value="a3">Hermione</p>
+					<br>
+					<p><button class="submit"> Сhoose </button></p>
+					<br>
+				</td>
+
+			</table>
+
+		</section>
+	</section>
+
+	<footer id="footer">All rights reserved 2019</footer>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
